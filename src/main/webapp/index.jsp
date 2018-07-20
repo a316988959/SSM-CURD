@@ -18,6 +18,7 @@
 	src="${APP_PATH}/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+111111
 	<!-- 员工修改 -->
 	<div class="modal fade" id="empUpdateModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel">
@@ -499,7 +500,7 @@
 				}
 			});
 		});
-	
+		
 		$(document).on("click",".delete_btn",function(){
 			var empName = $(this).parents("tr").find("td:eq(2)").text();
 			var empId = $(this).attr("del-id")
